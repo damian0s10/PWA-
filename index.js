@@ -8,6 +8,7 @@ window.onload = () => {
     }
 };
 function notifyMe() {
+    console.log("Powiadomienie");
     // Sprawdzamy czy przeglądarka obsługuje powiadomienia.
     if (!("Notification" in window)) {
       alert("Ta przeglądarka nie obsługuje powiadomień");
